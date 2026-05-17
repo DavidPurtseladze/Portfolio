@@ -1,0 +1,12 @@
+:root,
+[data-theme="gruvbox"] {
+    --color-bg: #282828;
+    --color-surface: #3c3836;
+    --color-border: #504945;
+    --color-fg: #ebdbb2;
+    --color-accent1: #d79921;
+    --color-accent2: #b8bb26;
+    --color-accent3: #83a598;
+    --color-accent4: #cc241d;
+    --color-muted: #928374;
+}

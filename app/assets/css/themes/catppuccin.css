@@ -1,0 +1,11 @@
+[data-theme="catppuccin"] {
+    --color-bg: #1e1e2e;
+    --color-surface: #313244;
+    --color-border: #45475a;
+    --color-fg: #cdd6f4;
+    --color-accent1: #cba6f7;
+    --color-accent2: #a6e3a1;
+    --color-accent3: #89dceb;
+    --color-accent4: #f38ba8;
+    --color-muted: #6c7086;
+}
