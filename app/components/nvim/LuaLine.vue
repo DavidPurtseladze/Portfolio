@@ -39,10 +39,7 @@
             </div>
 
             <div class="t-xs ml-3 flex gap-1 items-center">
-                <Icon width="12" height="12" v-if="fileType === 'md'" icon="mdi:application-edit-outline" />
-                <Icon width="12" height="12" v-else-if="fileType === 'lua'" icon="mdi:language-lua" />
-                <Icon width="12" height="12" v-else icon="material-symbols:edit-document-outline" />
-
+                <Icon width="12" height="12" :icon="mapFileIcon(fileType)" />
                 {{ fileType }}
             </div>
 
