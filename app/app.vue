@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import { tree } from '~/data/tree'
+</script>
+
 <template>
-  <div class="min-h-screen bg-[var(--color-bg)] text-[var(--color-fg)] p-4">
+  <div class="h-screen bg-[var(--color-bg)] text-[var(--color-fg)] overflow-hidden">
     <NuxtRouteAnnouncer />
+    <NvimNeoTree :nodes="tree" />
 
     <NvimLuaLine
         mode="NORMAL"
@@ -11,18 +16,5 @@
         system="linux"
     />
   </div>
-
-
-
-  readme
-  mdi:application-edit-outline
-
-  lua
-  mdi:language-lua
-
-  folder
-  material-symbols:folder-outline
-  material-symbols:folder-open-outline
-    
 </template>
 
